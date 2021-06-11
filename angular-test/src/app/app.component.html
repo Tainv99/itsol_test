@@ -1,0 +1,57 @@
+<div class="container-fluid">
+    <div class="left">
+        <table id="bang_trai" style=" font-size: medium; font-family:'Times New Roman', Times, serif; ">
+            <tr style="width: 100%;">
+              <td style="width: 3%;">
+                <img
+                  src="https://png.pngtree.com/png-clipart/20190520/original/pngtree-vector-users-icon-png-image_4144740.jpg"
+                  id="user_img" alt="avatar">
+              </td>
+              <th style="width: 97%; border: none;">
+                &emsp;&emsp;<i style="color: red;font-size: medium;">
+                  <h4>Welcome, Admin</h4>
+                </i>
+              </th>
+            </tr>
+            <tr>
+              <th colspan="2" style="vertical-align: bottom; padding-left: 20px; border: none;">
+                <p id="text">GENERAL</p>
+              </th>
+            </tr>
+            <tr>
+              <th colspan="2" class="bars"><a class="nav-link" href="index.html"><i class="fas fa-home"></i>&ensp;Home</a>
+              </th>
+            </tr>
+            <tr>
+              <th colspan="2" class="bars"><i class="fas fa-users"></i>&ensp;Quản lí User</th>
+            </tr>
+            <tr>
+              <th colspan="2" class="bars"><i class="fas fa-university"></i>&ensp;Quản lí lớp học</th>
+            </tr>
+            <tr>
+              <th colspan="2" class="bars"> <a class="nav-link" href="subject.component.html"><i class="far fa-file-alt">
+                  </i>&ensp;Quản lí môn học</a></th>
+            </tr>
+            <tr>
+              <th colspan="2" class="bars"><i class="fas fa-envelope-open-text"></i>&ensp;<a routerLink="/create">Create Question</a></th>
+            </tr>
+            <tr>
+              <th colspan="2" class="bars"><i class="far fa-question-circle"></i>&ensp;<a routerLink="/list-question">Quản lí câu hỏi</a></th>
+            </tr>
+            <tr>
+              <th colspan="2" class="bars"><i class="fas fa-newspaper"></i>&ensp;<a routerLink="/update">Create Question</a></th>
+            </tr>
+            <tr>
+              <th colspan="2" class="bars"><i class="fas fa-poll"></i>&ensp;Quản lí kết quả</th>
+            </tr>
+            <!-- <tr>
+                           <th colspan="2"class="bars"></th>
+                       </tr> -->
+          </table>
+    </div>
+    <div class="right">
+        <div class="container" style="background-color: lemonchiffon;">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
